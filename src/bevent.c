@@ -111,6 +111,7 @@ static enum bevent_class bevent_class(enum ua_event ev)
 	case UA_EVENT_CALL_DTMF_END:
 	case UA_EVENT_CALL_RTPESTAB:
 	case UA_EVENT_CALL_RTCP:
+	case UA_EVENT_CALL_VIDEO_DISP:
 	case UA_EVENT_CALL_MENC:
 	case UA_EVENT_CALL_LOCAL_SDP:
 	case UA_EVENT_CALL_REMOTE_SDP:
